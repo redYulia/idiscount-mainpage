@@ -1,0 +1,54 @@
+header, footer {
+    display: block;
+}
+
+header, .main-content, .container {
+    margin: 0 auto;
+    max-width: 1500px;
+    width: 90%;
+    padding: 0 15px;
+    position: relative;
+}
+header {
+    height: 70px;
+    padding-top: 15px;
+}
+.price-inner, .price-cost, .price-free {
+    box-shadow: 0 1px 1px #dfdfdf;
+    behavior: url(PIE.htc);
+    position: relative;
+}
+.main-content .enter-button {
+    border-radius: 50px;
+    behavior: url(PIE.htc);
+    position: relative;
+} 
+.price-inner, 
+.price-free, 
+.price-cost, 
+.contact-form {
+    border-radius: 5px;
+    behavior: url(PIE.htc);
+    position: relative;
+}
+.contact-form input[type="button"] {
+    border-radius: 3px;
+    behavior: url(PIE.htc);
+    position: relative;
+}
+.flex-control-paging li a {
+    position: relative;
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    behavior: url(PIE.htc);
+}
+.price-cost .month, .price-cost .year{
+    /*zoom: 1;
+    filter: progid:DXImageTransform.Microsoft.Shadow(Color = #808080, Strength=7, Direction=315);*/
+}
+.social a, .to-bottom {
+    filter:alpha(opacity=50);
+}
+.to-bottom:hover {
+    filter:alpha(opacity=100);
+}
